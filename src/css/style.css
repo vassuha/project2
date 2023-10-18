@@ -19,19 +19,18 @@
     font-size: 28px;
 } */
 
-@font-face { 
-    font-family: "MuseoSansCyrl500Italic";
-    src: url("../fonts/MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.eot");
-    src: url("../fonts/MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.woff") format("woff"),
-    url("../fonts/MuseoSansCyrl500Italic/MuseoSansCyrl500Italic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: normal;
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url("/src/fonts/MuseoSansCyrl100.otf") format("opentype");
 }
 
 #makingProfileGeneral{
     display: flex;
     flex-direction: row;
+}
+
+b{
+    font-weight: 900;
 }
 
 #TakBudet{
@@ -79,7 +78,7 @@ h4{
 }
 .smile{
     font-size: 30px;
-    font-family: MuseoSansCyrl 500;
+    font-family: 'Museo Sans Cyrl';
 }
 
 h3{
@@ -100,7 +99,7 @@ h3{
     flex-direction: row;
     justify-content: space-between;
     margin:20px;
-    font-family: Arial;
+    font-family: 'Museo Sans Cyrl';
     color: #000000;
     /* box-shadow: 0px 0px 5px grey; */
     
@@ -108,7 +107,7 @@ h3{
 }
 html *
 {
-   font-family: Arial;
+   font-family: 'Museo Sans Cyrl';
 }
 
 /* input{
@@ -160,10 +159,27 @@ html *
 .footer{
     box-sizing: border-box;
     width: 1040px;
-    height: 528px;
+    height: 180px;
     background-color: #ffffff;
 
 }
+
+.footer2{
+    box-sizing: border-box;
+    width: 1040px;
+    height: 80px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #aaaaaa;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+
+}
+
 .oServise{
     display: flex;
     align-items: column;
@@ -175,6 +191,11 @@ html *
 }
 .tgck2{
     margin: 10px;
+}
+.describtion{
+    margin: 15px;
+    margin-left: 0px;
+    font-size: 16px;
 }
 
 #tgvk{
@@ -188,6 +209,17 @@ html *
     width: 1040px;
     height: 2px;
     background-color: #F4F4F6;
+    /* background-color: #0000ff; */
+
+}
+
+.footerLine{
+    box-sizing: border-box;
+    width: 99999px;
+    height: 12px;
+    background-color: #7953c3;
+    /* background-color: #0000ff; */
+
 }
 
 .progressBar{
@@ -221,6 +253,10 @@ html *
 .main{
     display: flex;
     justify-content: center
+}
+.stolb{
+    display: flex;
+    
 }
 
 .pinktext40px{
@@ -318,13 +354,19 @@ html *
     font-size: 16px;
     color:#cccccc;
 }
+.text16px{
+    font-size: 16px;
+}
 
 .main{
     background: #ffffff;
+    display: flex;
+    align-items: column;
+    flex-direction: row-reverse;
 }
 h1{
     font-size: 32px;
-    font-family: Arial;
+    font-family: 'Museo Sans Cyrl';
 }
 
 #osebe{
@@ -337,7 +379,7 @@ h1{
 
 h2{
     font-size: 16px;
-    font-family: Arial;
+    font-family: 'Museo Sans Cyrl';
     color:#000000;
 }
 
